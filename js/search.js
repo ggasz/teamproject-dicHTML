@@ -2,7 +2,7 @@ const query = document.getElementById('search')
 const submitBtn = document.getElementById('submit')
 const container = document.getElementById('container')
 const autocomplete = document.getElementById('autocomplete')
-const BASE_URL = 'https://dictionary-search-kim.herokuapp.com/api/words';
+const BASE_URL = 'https://dictionary-search-ksm.herokuapp.com/api/words';
 
  function checkIfStringHasSpecialCharacter(str) {
      const re = /[ `!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
